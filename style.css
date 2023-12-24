@@ -1,13 +1,24 @@
 .dekstop{
-    background-color: #000000;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
-.dekstop .div {
-    background-color: #000000;
+.dekstop .gambar {
+    background-color: #ffffff;
     width: 1440px;
     height: 2384px;
+    position: relative;
+}
+
+.dekstop .nggambar{
+    position: absolute;
+    width: 1440px;
+    height: 1270px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
 }
